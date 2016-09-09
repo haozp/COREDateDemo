@@ -18,9 +18,7 @@
     [super viewDidLoad];
     
     self.title = @"数据详情";
-    
     self.view.backgroundColor = [UIColor whiteColor];
-    
     UILabel *labrel = [[UILabel alloc]initWithFrame:CGRectMake(30,64, 300, 70)];
     labrel.backgroundColor = [UIColor redColor];
     labrel.text = @"+++++jfksjfkskfjkjfkjskfjeijfiejfijeifjiejfijeifjeijfiejfiejifjeifjiejfiejifjeifjeijfiejfiejifjeifjiejfiefijeifeijfiefieieiejfalfakfkasjfksnnicenicneuhuhafdsjkfhdkjfhjdfhdjkfjkd";
