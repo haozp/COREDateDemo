@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+typedef void(^testModeBackBlock)(void);
+
+@interface ViewController : UIViewController<UINavigationControllerDelegate, UITabBarControllerDelegate>
+
+@property (nonatomic, copy)testModeBackBlock testkBlock;
+
+-(int)hhTestDemo;
 
 
 @end

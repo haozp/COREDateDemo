@@ -7,6 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "objc/runtime.h"
+#import "objc/message.h"
+
+#import "UIViewController+MyViewController.h"
+#import "UITapGestureRecognizer+testTapGes.h"
+#import "NSString+MyString.h"
+
+
+
+
+
 
 @interface AppDelegate ()
 
@@ -16,8 +28,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+
+//    ViewController *vC = [[ViewController alloc]init];
+//    
+//
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vC];
+//    self.window.rootViewController = nav;
+
+    //--------------在这里设置UINavigationBar默认颜色--------------
+//    [[UINavigationBar appearance]setTintColor:[UIColor redColor]];
+//    [[UINavigationBar appearance]setBarTintColor:[UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1]];
+//    [[UINavigationBar appearance]setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIFont systemFontOfSize:21],NSFontAttributeName, nil]];
+//    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+
+
+    self.window.rootViewController.view.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+      return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

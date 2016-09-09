@@ -1,0 +1,18 @@
+//
+//  CoreDemo.pch
+//  COREDateDemo
+//
+//  Created by leo on 16/6/12.
+//  Copyright © 2016年 haozp. All rights reserved.
+//
+
+#ifndef CoreDemo_pch
+#define CoreDemo_pch
+#import "ReactiveCocoa.h"
+#import "UINavigationBar+myTestChangeBackColor.h"
+#define   DEGREES_TO_RADIANS(degrees)  ((M_PI * degrees)/ 180)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CoreDemo_pch */
