@@ -25,7 +25,6 @@ static NSString * const collectionID = @"collection";
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
-
     [self setCollectionView];
 }
 

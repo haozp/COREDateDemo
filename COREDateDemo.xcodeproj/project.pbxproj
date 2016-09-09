@@ -1294,7 +1294,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				GCC_PREFIX_HEADER = "/Users/leo/Desktop/wenjian/临时--工程/COREDateDemo/COREDateDemo/CoreDemo.pch";
+				GCC_PREFIX_HEADER = /Users/leo/Desktop/COREDateDemo/COREDateDemo/CoreDemo.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1317,7 +1317,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				GCC_PREFIX_HEADER = "/Users/leo/Desktop/wenjian/临时--工程/COREDateDemo/COREDateDemo/CoreDemo.pch";
+				GCC_PREFIX_HEADER = /Users/leo/Desktop/COREDateDemo/COREDateDemo/CoreDemo.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
