@@ -42,7 +42,6 @@
     _btnTestRac = btn;
 
 
-
     //信号订阅
     [self signSingnol];
 
